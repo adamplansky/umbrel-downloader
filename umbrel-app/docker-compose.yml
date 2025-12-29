@@ -12,6 +12,6 @@ services:
     stop_grace_period: 30s
     volumes:
       - ${APP_DATA_DIR}/data:/data
-      - ${APP_DATA_DIR}/downloads:/downloads
+      - /home/umbrel/umbrel/home/Downloads/movies:/downloads
     environment:
       - TZ=${TZ}
