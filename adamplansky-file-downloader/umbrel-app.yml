@@ -1,4 +1,4 @@
-manifestVersion: 1.1
+manifestVersion: 1
 id: adamplansky-file-downloader
 category: files
 name: File Downloader
